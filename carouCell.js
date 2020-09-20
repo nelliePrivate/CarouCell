@@ -159,6 +159,9 @@ function assignIMGs(n) {
     count = 0;
     
     for (i = n; i <= max; i++) {
+        if (count >= 3) {
+            break
+        }
         path = getpath(i)
         
         if (count == 0) {
